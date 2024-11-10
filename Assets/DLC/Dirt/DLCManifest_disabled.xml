@@ -1,0 +1,8 @@
+<manifest>
+	<content path="Dirt.prefab" folder="DLC/Dirt"/>
+	<content path="DirtCrushEffect.prefab" folder="DLC/Dirt"/>
+  <content path="DirtRenderer.prefab" folder="DLC/Dirt"/>
+  <content path="DirtGoal.prefab" folder="DLC/Dirt"/>
+  <content path="TargetCounterDirt.prefab" folder="DLC/Dirt"/>
+  <sound path="SFX/DirtCrush.mp3" folder="DLC/Dirt" name="DirtCrush"/>
+</manifest>

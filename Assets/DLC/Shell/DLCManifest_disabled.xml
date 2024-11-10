@@ -1,0 +1,5 @@
+<manifest>
+	<content path="Shell.prefab" folder="DLC/Shell"/>
+	<content path="ShellNodeEffect.prefab" folder="DLC/Shell"/>
+	<sound path="SFX/ShellHit.mp3" folder="DLC/Shell" name="Hit"/>
+</manifest>

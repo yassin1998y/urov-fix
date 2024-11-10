@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "733278580719",
+    "firebase_url": "https://ultimate-match-three.firebaseio.com",
+    "project_id": "ultimate-match-three",
+    "storage_bucket": "ultimate-match-three.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733278580719:android:e69775bcb9b63a82",
+        "android_client_info": {
+          "package_name": "com.yurowm.umte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733278580719-e1rtspvmgot9oh4d1kt6e4g24fqhgda9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYGWjgH0dw5asO1PDxwf2BDBh38lHiIpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

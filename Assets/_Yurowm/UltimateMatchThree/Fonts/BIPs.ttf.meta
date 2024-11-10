@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7e186eb49ff25e845a66d2242da1aa65
+timeCreated: 1501752189
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BIPs
+  fontNames:
+  - BIPs
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

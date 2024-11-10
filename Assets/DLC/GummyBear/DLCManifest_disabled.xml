@@ -1,0 +1,8 @@
+<manifest>
+	<content path="GummyBear1x2.prefab" folder="DLC/GummyBear"/>
+	<content path="GummyBear2x1.prefab" folder="DLC/GummyBear"/>
+	<content path="GummyBear2x3.prefab" folder="DLC/GummyBear"/>
+	<content path="GummyBearGoal.prefab" folder="DLC/GummyBear"/>
+	<content path="TargetCounterGummyBear.prefab" folder="DLC/GummyBear"/>
+	<sound path="SFX/GummyBearDestroying.mp3" folder="DLC/GummyBear" name="Destroying"/>
+</manifest>

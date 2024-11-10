@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 592e2d7c2950f5843aaba8625db96f34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: MapCityTrees_0
+  - first:
+      213: 21300002
+    second: MapCityTrees_1
+  - first:
+      213: 21300004
+    second: MapCityTrees_2
+  - first:
+      213: 21300006
+    second: MapCityTrees_3
+  - first:
+      213: 21300008
+    second: MapCityTrees_4
+  - first:
+      213: 21300010
+    second: MapCityTrees_5
+  - first:
+      213: 21300012
+    second: MapCityTrees_6
+  - first:
+      213: 21300014
+    second: MapCityTrees_7
+  - first:
+      213: 21300016
+    second: MapCityTrees_8
+  - first:
+      213: 21300018
+    second: MapCityTrees_9
+  - first:
+      213: 21300020
+    second: MapCityTrees_10
+  - first:
+      213: 21300022
+    second: MapCityTrees_11
+  - first:
+      213: 21300024
+    second: MapCityTrees_12
+  - first:
+      213: 21300026
+    second: MapCityTrees_13
+  - first:
+      213: 21300028
+    second: MapCityTrees_14
+  - first:
+      213: 21300030
+    second: MapCityTrees_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MapCityTrees_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 735
+        width: 231
+        height: 711
+      alignment: 9
+      pivot: {x: 0.38148773, y: 0.069454916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 718
+        width: 144
+        height: 832
+      alignment: 9
+      pivot: {x: 0.34445232, y: 0.03934002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 967
+        width: 252
+        height: 557
+      alignment: 9
+      pivot: {x: 0.50987583, y: 0.053184852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_3
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 800
+        width: 203
+        height: 747
+      alignment: 9
+      pivot: {x: 0.5367798, y: 0.023570683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_4
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 953
+        width: 145
+        height: 575
+      alignment: 9
+      pivot: {x: 0.5686553, y: 0.023889266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 742
+        width: 229
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 448
+        width: 106
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5234795, y: 0.02076384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 290
+        height: 251
+      alignment: 9
+      pivot: {x: 0.35410717, y: 0.07363855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 434
+        width: 268
+        height: 273
+      alignment: 9
+      pivot: {x: 0.44428152, y: 0.08976494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_9
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 516
+        width: 83
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4700148, y: 0.05080894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_10
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 447
+        width: 71
+        height: 290
+      alignment: 9
+      pivot: {x: 0.64021236, y: 0.045157596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 496
+        height: 425
+      alignment: 9
+      pivot: {x: 0.52007073, y: 0.21891637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 58
+        width: 314
+        height: 346
+      alignment: 9
+      pivot: {x: 0.30977616, y: 0.24105367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_13
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 47
+        width: 228
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5109154, y: 0.16530478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_14
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 457
+        width: 251
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.6449135, y: 0.0020592245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapCityTrees_15
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 49
+        width: 426
+        height: 341
+      alignment: 9
+      pivot: {x: 0.6170064, y: 0.037780717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MapCityTrees_0: 21300000
+      MapCityTrees_1: 21300002
+      MapCityTrees_10: 21300020
+      MapCityTrees_11: 21300022
+      MapCityTrees_12: 21300024
+      MapCityTrees_13: 21300026
+      MapCityTrees_14: 21300028
+      MapCityTrees_15: 21300030
+      MapCityTrees_2: 21300004
+      MapCityTrees_3: 21300006
+      MapCityTrees_4: 21300008
+      MapCityTrees_5: 21300010
+      MapCityTrees_6: 21300012
+      MapCityTrees_7: 21300014
+      MapCityTrees_8: 21300016
+      MapCityTrees_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

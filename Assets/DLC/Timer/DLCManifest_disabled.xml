@@ -1,0 +1,5 @@
+<manifest>
+	<content path="TargetCounterTimer.prefab" folder="DLC/Timer"/>
+	<content path="TimerGoal.prefab" folder="DLC/Timer"/>
+	<sound path="SFX/TickTock.mp3" folder="DLC/Timer" name="TickTock"/>
+</manifest>

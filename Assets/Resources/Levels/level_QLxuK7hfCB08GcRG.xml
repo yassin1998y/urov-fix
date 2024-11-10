@@ -1,0 +1,725 @@
+<level type="MatchClick" bonus="BombBonus" number="38" deep="0" deepHeight="12" color="4" size="(7, 9)" star1="100" star2="200" star3="300" moves="40" path="31-40">
+  <parameters />
+  <goals>
+    <goal type="GlassGoal" />
+    <goal type="ColorCollectionGoal">
+      <param name="count" value="2" coord="(0, 0)" color="100"></param>
+      <param name="count_0" value="30" coord="(0, 0)" color="100"></param>
+      <param name="count_1" value="30" coord="(0, 0)" color="100"></param>
+    </goal>
+  </goals>
+  <extensions>
+    <exten type="AntiGravitation">
+      <slot coord="(5, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(1, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(1, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(1, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(0, 3)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(0, 4)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(0, 5)">
+        <param name="Right" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Left" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 6)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 7)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 8)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 6)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 7)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 8)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 6)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 7)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 8)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 6)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 7)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 8)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 2)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 1)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 0)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 2)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 1)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 0)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 2)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 1)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 0)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 2)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 1)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(5, 0)">
+        <param name="Left" value="1" coord="(0, 0)" color="100"></param>
+        <param name="Top" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Right" value="0" coord="(0, 0)" color="100"></param>
+        <param name="Bottom" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+    </exten>
+    <exten type="Walls">
+      <slot coord="(2, 3)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(1, 3)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 3)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(4, 6)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(2, 6)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(1, 6)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 6)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+      <slot coord="(3, 3)">
+        <param name="h" value="1" coord="(0, 0)" color="100"></param>
+        <param name="v" value="0" coord="(0, 0)" color="100"></param>
+      </slot>
+    </exten>
+  </extensions>
+  <slots>
+    <slot position="(0, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(0, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 1)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 1)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 1)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 1)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(4, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(0, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 7)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 7)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 7)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(4, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 7)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(1, 8)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 8)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 8)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 8)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+      <c name="Glass" type="2">
+        <p name="layer" value="3" coord="(0, 0)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(5, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 1)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 7)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(5, 8)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(6, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(6, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+    <slot position="(6, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="Ice" type="1" />
+    </slot>
+  </slots>
+  <bigObjects />
+  <editor key="QLxuK7hfCB08GcRG" path="31-40" title="MatchClick (GlassGoal, ColorCollectionGoal)" />
+</level>

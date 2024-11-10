@@ -1,0 +1,223 @@
+<level type="MatchThreeSwap" bonus="AirstrikeBonus" number="3" deep="0" deepHeight="12" color="4" size="(7, 7)" star1="30" star2="60" star3="90" moves="10" path="1-10">
+  <parameters />
+  <goals>
+    <goal type="ColorCollectionGoal">
+      <param name="count" value="1" coord="(0, 0)" color="100"></param>
+      <param name="count_0" value="30" coord="(0, 0)" color="100"></param>
+    </goal>
+  </goals>
+  <extensions>
+    <exten type="Dialogue">
+      <level name="actions" value="0" coord="(0, 0)" color="100">&lt;actions&gt;
+  &lt;ActionSettings mBooster="0" sBooster="0" rollback="1" hints="0" keyPath="tutorial3" /&gt;
+  &lt;ActionCharacter prefab="Agnes" corner="0" type="0" pose="Neutral" /&gt;
+  &lt;ActionSay corner="0" localized="1" key="speech1" /&gt;
+  &lt;ActionSay corner="0" localized="1" key="speech2" /&gt;
+  &lt;ActionHelper slots="(4, 5);(4, 4)" looping="2" autohide="1" /&gt;
+  &lt;ActionHighlightSlots slots="(2, 4);(3, 4);(4, 4);(4, 5);(5, 4);(6, 4)" autohide="1" /&gt;
+  &lt;ActionLimitInteraction slots="(4, 5);(4, 4)" disable="0" /&gt;
+  &lt;ActionWaitNextMove skip="0" /&gt;
+  &lt;ActionCharacter prefab="Agnes" corner="0" type="0" pose="Happy" /&gt;
+  &lt;ActionSay corner="0" localized="1" key="speech3" /&gt;
+  &lt;ActionHelper slots="(4, 4);(4, 3)" looping="2" autohide="1" /&gt;
+  &lt;ActionHighlightSlots slots="(3, 3);(4, 3);(5, 3);(4, 4)" autohide="1" /&gt;
+  &lt;ActionLimitInteraction slots="(4, 4);(4, 3)" disable="0" /&gt;
+  &lt;ActionWaitNextMove skip="0" /&gt;
+  &lt;ActionSay corner="0" localized="1" key="speech4" /&gt;
+  &lt;ActionCharacter prefab="Agnes" corner="0" type="1" pose="Greeting" /&gt;
+&lt;/actions&gt;</level>
+    </exten>
+  </extensions>
+  <slots>
+    <slot position="(2, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(2, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(3, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(4, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="1"></p>
+      </c>
+    </slot>
+    <slot position="(5, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(5, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(2, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(3, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(3, 6)">
+      <c name="Generator" type="2">
+        <p name="probability_Pearl" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Lava" value="0" coord="(0, -1)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(5, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(5, 6)">
+      <c name="Generator" type="2">
+        <p name="probability_Pearl" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Lava" value="0" coord="(0, -1)" color="100"></p>
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(0, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(0, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(0, 6)">
+      <c name="Generator" type="2">
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(2, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(2, 6)">
+      <c name="Generator" type="2">
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(3, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(4, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(4, 6)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+      <c name="Generator" type="2">
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(5, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(6, 2)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(6, 3)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(6, 4)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(6, 5)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="100"></p>
+      </c>
+    </slot>
+    <slot position="(6, 6)">
+      <c name="Generator" type="2">
+        <p name="condition_Ingredient" value="0" coord="(0, -1)" color="100"></p>
+        <p name="probability_Pearl" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Stone" value="0" coord="(0, 0)" color="100"></p>
+        <p name="probability_Lava" value="0" coord="(0, 0)" color="100"></p>
+      </c>
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(2, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(4, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+    <slot position="(6, 0)">
+      <c name="SimpleChip" type="0">
+        <p name="color" value="0" coord="(0, -1)" color="0"></p>
+      </c>
+    </slot>
+  </slots>
+  <bigObjects />
+  <editor key="yIyGwAgKzIC5QwcL" path="1-10" title="MatchThreeSwap (ColorCollectionGoal)" />
+</level>
